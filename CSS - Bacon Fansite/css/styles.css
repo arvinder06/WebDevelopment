@@ -1,0 +1,29 @@
+/* Tag Selectors */
+h1 {
+  font-size: 200px;
+  color: red;
+}
+
+img:hover {
+  background-color: gold;
+}
+
+
+/* Class Selector */
+.baconImage {
+  background-color: red;
+}
+
+.avacadoImage {
+  background-color: green;
+}
+
+.circular{
+  border-radius: 100%;
+}
+
+
+/* ID Selector ----  This will have the priority over the h1 tag Selector */
+#heading{
+  color: powderblue;
+}
