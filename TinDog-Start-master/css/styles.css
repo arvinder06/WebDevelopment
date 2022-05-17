@@ -36,22 +36,53 @@ h1 {
   font-weight: bold;
 }
 
-.nav-item{
+.nav-item {
   padding: 18px 18px;
 }
 
-.nav-link{
+.nav-link {
   font-size: 1.2rem;
   font-family: "Montserrat-Light";
 }
 
 /* Store Download Buttons */
-.download-button{
+.download-button {
   margin: 5% 3% 5% 0;
 }
 
 /* title image */
-.title-image{
+.title-image {
   width: 60%;
   transform: rotate(25deg);
+}
+
+/* Section Features */
+#features {
+  padding: 3rem;
+}
+
+#features h3 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+#features [class*=fa-] {
+  color: #ef8172;
+  padding-bottom: 1rem;
+  font-size: 4em;
+}
+
+#features [class*=fa-]:hover{
+  color: #ff4c68;
+}
+
+#features p {
+  color: #8f8f8f ;
+  width:75%;
+  margin: auto;
+}
+
+.col-lg-4{
+  padding: 4rem;
 }
