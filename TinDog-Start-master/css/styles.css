@@ -164,3 +164,58 @@ h1 {
 .card-col button.btn {
   margin-top: auto;
 }
+
+/* Media Query */
+@media (max-width:995px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    width: 70%;
+    position: static;
+    transform: rotate(0deg);
+    margin: auto;
+  }
+}
+
+/* CTA */
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 3% 0;
+}
+
+#cta h3 {
+  font-family: "Montserrat-bold";
+  font-weight: 900;
+  font-size: 3rem;
+  text-align: center;
+  width: 50%;
+  color: white;
+  margin: auto;
+}
+
+#cta .btn {
+  margin: 3% 1%;
+}
+
+#cta .cta-apple-btn:hover {
+  background-color: black;
+}
+
+/* Footer */
+#footer {
+  text-align: center;
+  background-color: white;
+}
+
+.footer-social-link {
+  margin: 1%;
+  padding-top: 2%;
+  font-size: 1em;
+}
+
+#footer p {
+  color: grey;
+}
