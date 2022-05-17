@@ -14,7 +14,7 @@ h1 {
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 #button-apple-store:hover {
@@ -52,13 +52,18 @@ h1 {
 
 /* title image */
 .title-image {
-  width: 60%;
+  width: 22%;
   transform: rotate(25deg);
+  position: absolute;
+  right: 23%;
 }
 
 /* Section Features */
 #features {
   padding: 3rem;
+  position: relative;
+  background-color: white;
+  z-index: 1;
 }
 
 #features h3 {
@@ -137,7 +142,7 @@ h1 {
   font-family: "Montserrat";
 }
 
-#pricing h2{
+#pricing h2 {
   font-family: "Montserrat";
   font-weight: bold;
   font-size: 2rem;
