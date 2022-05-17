@@ -105,9 +105,13 @@ h1 {
 
 #testimonials img {
   border-radius: 50%;
-  width: 10%;
+  width: 7%;
   margin-right: 2rem;
   margin-top: 2rem;
+}
+
+[class*=carousel-control]{
+padding: 20px 40px 20px 40px;
 }
 
 #press {
