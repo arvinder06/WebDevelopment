@@ -110,8 +110,8 @@ h1 {
   margin-top: 2rem;
 }
 
-[class*=carousel-control]{
-padding: 20px 40px 20px 40px;
+[class*=carousel-control] {
+  padding: 20px 40px 20px 40px;
 }
 
 #press {
@@ -128,4 +128,34 @@ padding: 20px 40px 20px 40px;
 .carousel-indicators {
   position: absolute;
   bottom: -100px;
+}
+
+/* Pricing */
+#pricing {
+  padding: 100px;
+  text-align: center;
+  font-family: "Montserrat";
+}
+
+#pricing h2{
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 2rem;
+  width: 50%;
+  margin: auto;
+  padding-bottom: 10px;
+  /* line-height: 1.5; */
+}
+
+.card-col {
+  padding: 25px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-col button.btn {
+  margin-top: auto;
 }
