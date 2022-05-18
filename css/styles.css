@@ -190,9 +190,9 @@ h1 {
 
 /* Pricing */
 #pricing {
-  padding: auto 100px;
   text-align: center;
   font-family: "Montserrat";
+  padding-top: 3%;
 }
 
 #pricing h2 {
