@@ -119,6 +119,25 @@ h1 {
   padding: 20px 40px 20px 40px;
 }
 
+@media (max-width:995px) {
+  #testimonials h2 {
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 1rem;
+    width: 70%;
+  }
+
+  [class*=carousel-control] {
+    padding: 0;
+    position: absolute;
+    text-align: left;
+  }
+
+  #testimonials {
+    padding-bottom : 0rem;
+  }
+}
+
 #press {
   background-color: #ef8172;
   padding: 5rem;
@@ -135,9 +154,16 @@ h1 {
   bottom: -100px;
 }
 
+@media (max-width:995px) {
+  #press {
+    padding: 2rem;
+    text-align: center;
+  }
+}
+
 /* Pricing */
 #pricing {
-  padding: 100px;
+  padding: auto 100px;
   text-align: center;
   font-family: "Montserrat";
 }
@@ -177,6 +203,11 @@ h1 {
     transform: rotate(0deg);
     margin: auto;
   }
+
+  #pricing h2 {
+    padding: 50px 0 30px 0;
+    width: 100%;
+  }
 }
 
 /* CTA */
@@ -194,6 +225,14 @@ h1 {
   width: 50%;
   color: white;
   margin: auto;
+}
+
+@media (max-width:995px) {
+  #cta h3 {
+    font-size: 33px;
+    width: 100%;
+    padding: 10px;
+  }
 }
 
 #cta .btn {
